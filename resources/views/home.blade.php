@@ -4,6 +4,7 @@
 @section('content')
 <div class="card-container">
     @foreach ($data as $movie)
+    {{-- un foreach di data che ricevo tramite controller --}}
     <div class="card">
         <h6>{{$movie->id}}</h6>
         <h4>{{$movie->title}}</h4>
